@@ -1,0 +1,17 @@
+.content {
+    border: 1px solid black;
+    max-width:900px;
+    margin: 100px auto 0 auto;
+    padding: 20px;
+    background: grey;
+    opacity: 0.9;
+    font-family: Verdana, "sans-serif";
+}
+
+body {
+    background-image: url('tools.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    font-weight: bold;
+}

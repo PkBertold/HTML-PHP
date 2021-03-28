@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Szerszámok</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="content">
+    <form action="feldolgoz.php" method="GET">
+
+
+        <label for="nev">Név:</label>
+        <input type="text" name="nev" id="nev"><br>
+
+        <label for="jelszo">Email:</label>
+        <input type="email" name="email" id="email">
+        <br>
+
+        Válasszon Szerszámot
+        <select name="termek" id="termeklista" size='1'>
+          <option value="">...</option>
+          <option value="Kalapács">Kalapács</option>
+          <option value="Fűrész">Fűrész</option>
+          <option value="Fogó">Fogó</option>
+          <option value="Csavarhúzó">Csavarhúzó</option>
+          <option value="Bertold szerszáma">Bertold szerszáma</option>
+          <option value="Ütvefúró">Ütvefúró</option>
+        </select>
+         <br>
+         
+        Megjegyzés: <br>
+        <textarea name="megjegyzes" style="height: 100px;"></textarea><br>
+        
+        <input class="btn btn-success" type="submit" value="Elküld">
+    </form>
+    <br><br>
+    <form method="get" action="lista.php">
+        <button type="submit">Eddigi rendelések</button>
+    </form>
+</div>
+
+
+
+</body>
+</html>
+
